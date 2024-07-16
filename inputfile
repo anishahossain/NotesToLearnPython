@@ -1,0 +1,37 @@
+question_list = ['How many days are in a lunar year?', 'What is the largest planet?',
+                     'What is the largest kind of whale?', 'Which dinosaur could fly?',
+                     'Which of these Winnie the Pooh characters is a donkey?',
+                     'What is the hottest planet?', 'Which dinosaur had the largest brain compared to body size?',
+                     'What is the largest type of penguins?', "Which children's story character is a monkey?",
+                     'How long is a year on Mars?']
+
+    options_list = [[354, 365, 243, 379], ['Mars', 'Jupiter', 'Earth', 'Pluto'],
+                    ['Orca whale', 'Humpback whale', 'Beluga whale'],
+                    ['Triceratops', 'Tyrannosaurus Rex', 'Pteranodon', 'Diplodocus'],
+                    ['Pooh', 'Eeyore', 'Piglet', 'Kanga'], ['Mars', 'Pluto', 'Earth', 'Venus'],
+                    ['Troodon', 'Stegosaurus', 'Ichthyosaurus', 'Gigantoraptor'],
+                    ['Chinstrap penguins', 'Macaroni penguins', 'Emperor penguins', 'White-flippered penguins'],
+                    ['Winnie the Pooh', 'Curious George', 'Horton', 'Goofy'],
+                    ['550 Earth days', '498 Earth days', '126 Earth days', '687 Earth days']]
+    correct_answers = [1, 2, 4, 3, 2, 4, 1, 3, 2, 4]
+
+    def trivia_ques():
+    question_trv = [Trivia('How many days are in a lunar year?', 354, 365, 243, 379, 1),
+                    Trivia('What is the largest planet?', 'Mars', 'Jupiter', 'Earth', 'Pluto', 2),
+                    Trivia('What is the largest kind of whale?', 'Orca whale', 'Humpback whale', 'Beluga whale',
+                           'Blue whale', 4),
+                    Trivia('Which dinosaur could fly?', 'Triceratops', 'Tyrannosaurus Rex', 'Pteranodon', 'Diplodocus',
+                           3),
+                    Trivia('Which of these Winnie the Pooh characters is a donkey?', 'Pooh', 'Eeyore', 'Piglet',
+                           'Kanga', 2),
+                    Trivia('What is the hottest planet?', 'Mars', 'Pluto', 'Earth', 'Venus', 4),
+                    Trivia('Which dinosaur had the largest brain compared to body size?',
+                           'Troodon', 'Stegosaurus', 'Ichthyosaurus', 'Gigantoraptor', 1),
+                    Trivia('What is the largest type of penguins?',
+                           'Chinstrap penguins', 'Macaroni penguins', 'Emperor penguins',
+                           'White-flippered penguins', 3),
+                    Trivia("Which children's story character is a monkey?",
+                           'Winnie the Pooh', 'Curious George', 'Horton', 'Goofy', 2),
+                    Trivia('How long is a year on Mars?',
+                           '550 Earth days', '498 Earth days', '126 Earth days', '687 Earth days', 4)]
+    return question_trv
