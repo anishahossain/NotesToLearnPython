@@ -1,3 +1,4 @@
+#short car game to get used to python!
 command = ''
 started = False
 while True:
